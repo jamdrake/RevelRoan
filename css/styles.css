@@ -42,10 +42,10 @@ nav li a {
     width: 150px;
     height: 40px;
     background: linear-gradient(#e4a124, #715310);
-    padding: 20px 5px 5px;
+    padding: 5px 5px 5px;
     border: 1px solid rgb(150, 150, 150);
     text-align: center;
-    margin: 225px 20px 0 0;
+    margin: 235px 20px 0 0;
     border-radius: 5px;
     cursor: pointer;
     float: right;
@@ -99,6 +99,9 @@ h2 {
       font-size: 1.5em;
       text-align: center;
   }
+  .description .container {
+    height: 400px;
+  }
   .description img {
       float: right;
       margin-left: 50px;
@@ -121,6 +124,23 @@ h2 {
     height: 200px;
     padding: 20px;
   }
+  .item img{
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+  }
+  .carousel-inner {
+    text-align: center;
+}
+figure > figcaption {
+    font-size: 2em;
+    color: rgb(211, 120, 51) !important;
+    text-shadow: 2px 2px rgb(0, 0, 0) !important;
+}
+#carousel .container {
+    height: 500px;
+}
+
 /*SERVICES PAGE*/
 .webcontent img, .marketing img, .consulting img, .branding img {
     height: 300px;
