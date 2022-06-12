@@ -1,3 +1,19 @@
+/*UTILITY*/
+.floatleft {
+    float: left;
+    margin-right: 50px;
+}
+.floatright {
+    float: right;
+    margin-left: 50px;
+}
+.container {
+    width: 100%;
+    height: 300px;
+    margin: 50px auto;
+}
+/*STRUCTURE*/
+/*BANNER*/
 header {
     width: 100%;
     height: 300px;
@@ -62,8 +78,13 @@ nav li a {
     float: left;
     margin-left: 300px;
 }
+/*HOME PAGE*/
+h2 {
+    text-align: center;
+}
 .pagetitle h2 {
     text-align: center;
+    line-height: 1.5em;
   }
   .aboutme img{
       float: left;
@@ -74,7 +95,7 @@ nav li a {
       font-size: 2em;
       text-align: center;
   }
-  .aboutme p, .description p {
+  .aboutme p, .description p, .marketing p, .consulting p, .branding p, .webcontent p {
       font-size: 1.5em;
       text-align: center;
   }
@@ -95,8 +116,12 @@ nav li a {
    float: left;
    margin: 0 0 0 850px;
   }
-  .container {
-      width: 100%;
-      height: 300px;
-      margin: 50px auto;
+  .contact .container{
+    background: rgb(151, 231, 203);
+    height: 200px;
+    padding: 20px;
   }
+/*SERVICES PAGE*/
+.webcontent img, .marketing img, .consulting img, .branding img {
+    height: 300px;
+}
