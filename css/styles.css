@@ -145,3 +145,17 @@ figure > figcaption {
 .webcontent img, .marketing img, .consulting img, .branding img {
     height: 300px;
 }
+img {
+    height: 300px;
+    width: 300px;
+}
+/*MY WORK PAGE*/
+#mywork .container {
+    width: 100%;
+}
+#mywork .container p {
+    text-align: center;
+}
+#mywork .container img {
+    margin-left: 35%;
+}
