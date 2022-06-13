@@ -159,3 +159,7 @@ img {
 #mywork .container img {
     margin-left: 35%;
 }
+#message {
+    height: 200px;
+    width: 600px;
+}
