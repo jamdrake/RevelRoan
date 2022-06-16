@@ -177,6 +177,20 @@ img {
     height: 200px;
     width: 600px;
 }
+/*CONTACT ME PAGE*/
+.linkedin img {
+    width: 10%;
+    height: 10%;
+    margin: 20px;
+}
+.indy img {
+    width: 10%;
+    height: 10%;
+    margin: 20px;
+}
+form {
+    margin-left: 25%;
+}
 /*FIX BREAK AT 1000PX*/
 @media (max-width: 1000px) {
     .description .container {
