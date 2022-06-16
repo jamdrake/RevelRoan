@@ -23,6 +23,9 @@
              </div>
              <div class="clear"></div>
          </header>
+         <div class="pagetitle">
+            <h2>Contact me through my links or leave your info below!</h2>
+         </div>
          <div class="linkedin">
             <a href="https://www.linkedin.com/in/kristyn-guerra-475a9563"><img src="photos/Linkedin-logo.png">Linkedin</a>
          </div>
@@ -30,18 +33,27 @@
         <div class="container">
             <h2>Send me your info!</h2>
       <form action="#" method="post">
-        <label for="fname">First Name*</label>
-        <input type="text" id="fname" name="fname" placeholder="Jane" required><br/>
-        <label for="lname">Last Name*</label>
-        <input type="text" id="lname" name="lname" placeholder="Doe" required><br/>
-        <label for="email">E-mail*</label>
-        <input type="email" id="email" name="email" placeholder="janedoe@something.com" required><br/>
-        <label for="company">Company Name</label>
-        <input type="text" id="company" name="company" placeholder="My Business"><br/>
-        <label for="message">Leave me a message*</label><br/>
-        <input type="text" id="message" name="message" placeholder="Type your message here" size="150x100" required><br/>
-        <input type="reset" value="reset">
-        <input type="submit" value="submit">
+            <label for="fname">First Name*</label></br>
+            <input type="text" id="fname" name="fname" placeholder="Jane" required></br>
+            <label for="lname">Last Name*</label></br>
+            <input type="text" id="lname" name="lname" placeholder="Doe" required></br>
+            <label for="email">E-mail*</label></br>
+            <input type="email" id="email" name="email" placeholder="janedoe@something.com" required></br>
+            <label for="company">Company Name</label></br>
+            <input type="text" id="company" name="company" placeholder="My Business"></br>
+            <label for="message">Leave me a message*</label></br>
+            <input type="text" id="message" name="message" placeholder="Type your message here" size="150x100" required></br>
+            <button type="reset" value="reset">Reset</button>
+            <button class="submit" type="submit" value="submit">Submit</button>
+            <script>
+                for (var clickButton of
+                document.getElementsByClassName("submit"))
+                clickButton.addEventListener("click", alertMeessage);
+                function alertMeessage() {
+                   alert("Thank you for your info, I look forward to working with you!");
+                }
+             </script>
+        </div>
     </div>
     </body>
 </html>

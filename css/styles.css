@@ -94,6 +94,13 @@ nav li a {
 }
 /*HOME PAGE*/
 
+.pagetitle {
+    background: rgb(238, 171, 119);
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+}
+
 h2 {
     text-align: center;
 }
@@ -188,8 +195,11 @@ img {
     height: 10%;
     margin: 20px;
 }
-form {
-    margin-left: 25%;
+label {
+    margin: 20px 0;
+}
+form button {
+    margin: 20px 20px 0 0;
 }
 /*FIX BREAK AT 1000PX*/
 @media (max-width: 1000px) {
