@@ -2,7 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/revelr5/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp styles.css $DEPLOYPATH
-    - /bin/cp services.html $DEPLOYPATH
-    - /bin/cp contactme.html $DEPLOYPATH
+    - /cgi-bin/cp index.html $DEPLOYPATH
+    - /cgi-bin/cp styles.css $DEPLOYPATH
+    - /cgi-bin/cp services.html $DEPLOYPATH
+    - /cgi-bin/cp contactme.html $DEPLOYPATH
